@@ -1,4 +1,4 @@
-form math import sqrt
+from math import sqrt
 def main(a):
     '''find the square root of a number and return it.
     
@@ -8,5 +8,5 @@ def main(a):
     Returns:
         float: the absolute value.
     '''
-    return math.sqrt(a,2)
+    return sqrt(a)
 print(main(9))
