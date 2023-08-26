@@ -8,5 +8,5 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return a//b
+    return round(a/b)
 print(main(11,2))
